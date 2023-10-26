@@ -44,3 +44,23 @@ console.log(typeof obj);
 console.log(typeof myFunc);
 
 // return type of function can also be known as function-object
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+/*
+stack(primitive), heap(non-primitive)
+*/
+
+let u1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let u2 = u1
+u2.email = "hvdas@google.com"
+
+console.log(u1.email);
+console.log(u2.email);
