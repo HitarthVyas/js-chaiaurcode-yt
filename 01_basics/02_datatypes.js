@@ -19,7 +19,23 @@ object
 
 let names = "hvdas";
 console.log(typeof null) // returns object
-console.log(typeof undefined); // returns undefined
+console.log(typeof(undefined)); // returns undefined
+
+let score = "32sde";
+
+let valInNum = Number(score);
+// String()
+
+console.log(typeof valInNum);
+
+//  NaN => datatype => number
+/*
+in boolean:
+1 => true
+0 => false
+"" => false
+"hvdas" => true
+*/
 
 
 // tc39.es is official js documentation site
